@@ -212,17 +212,17 @@
 				});
 
 		}
-		$(function() {
-			$.ajax({
-				url: "https://api.example.com/data",
-				type: "GET",
-				success: function(response) {
-					console.log("Data received:", response);
-				},
-				error: function(error) {
-					console.log("An error occurred:", error);
-				}
-			});
-		});
+		// $(function() {
+		// 	$.ajax({
+		// 		url: "https://api.example.com/data",
+		// 		type: "GET",
+		// 		success: function(response) {
+		// 			console.log("Data received:", response);
+		// 		},
+		// 		error: function(error) {
+		// 			console.log("An error occurred:", error);
+		// 		}
+		// 	});
+		// });
 
 })(jQuery);

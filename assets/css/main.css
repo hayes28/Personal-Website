@@ -1386,7 +1386,7 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 2.4em;
+		font-size: 2.6em;
 		letter-spacing: -0.015em;
 	}
 
@@ -1411,7 +1411,7 @@ input, select, textarea {
 		}
 
 		h3, h4, h5, h6 {
-			font-size: 1em;
+			font-size: 1.25em;
 		}
 
 	}
@@ -1455,6 +1455,8 @@ input, select, textarea {
 
 	p {
 		color: #ddd;
+		font-weight: 400;
+		font-size: 1.20em;
 	}
 
 /* Table */
