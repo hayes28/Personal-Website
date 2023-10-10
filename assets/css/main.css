@@ -1499,6 +1499,12 @@ h6 {
 	color: #FFF4D6;
 }
 
+.tagline {
+	color: #ddd;
+	font-weight: 200;
+	font-size: 1.20em;
+}
+
 h1 {
 	font-size: 2.8em;
 	letter-spacing: -0.015em;
@@ -1581,7 +1587,7 @@ form {
 }
 
 p {
-	color: #ddd;
+	color: #D2B48C;
 	font-weight: 400;
 	font-size: 1.20em;
 }
