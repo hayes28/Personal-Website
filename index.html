@@ -38,7 +38,7 @@
 			<article id="home" class="panel intro">
 				<header>
 					<h1>Heather Hayes</h1>
-					<p class="tagline">Junior Full Stack Developer</p>
+					<p class="tagline">Full Stack Developer</p>
 				</header>
 				<a href="#about" class="jumplink pic">
 					<span class="arrow icon solid fa-chevron-right"><span>Learn more about me</span></span>
@@ -114,7 +114,7 @@
 						<div class="col-4 col-6-medium col-12-small">
 							<h3>Happy Little Galaxies</h3>
 							<video controls style="max-width: 100%; height: auto;">
-								<source src="images/HLG_Video (2).mp4" type="video/mp4">
+								<source src="https://firebasestorage.googleapis.com/v0/b/personal-website-f7640.appspot.com/o/HLG_Video%20(2)%20(2).mp4?alt=media&token=dc8ec959-a590-4cac-8f82-31aa4bb5757d" type="video/mp4">
 								Your browser does not support the video tag.
 							</video>
 							<!-- Dropdown Toggle Button for Description -->
@@ -181,7 +181,7 @@
 						<div class="col-4 col-6-medium col-12-small">
 							<h3>Atlas School Dashboard Concept: A Webpack and React Exploration</h3>
 							<video controls style="max-width: 100%; height: auto;">
-								<source src="images/React Props - Google Chrome 2024-02-19 16-13-39.mp4"
+								<source src="https://firebasestorage.googleapis.com/v0/b/personal-website-f7640.appspot.com/o/React%20Props%20-%20Google%20Chrome%202024-02-19%2016-13-39.mp4?alt=media&token=20300114-ad39-43b3-ad42-7d71c07a1897"
 									type="video/mp4">
 							</video>
 							<!-- Dropdown Toggle Button for Description -->
@@ -247,6 +247,68 @@
 								commitment to aligning with the school's evolving identity.
 							</p>
 						</div>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<h3>Holberton AirBnB Clone - The Console</h3>
+							<video controls style="max-width: 100%; height: auto;">
+								<source
+									src="https://firebasestorage.googleapis.com/v0/b/personal-website-f7640.appspot.com/o/AirBnB%20Clone%20Web%20Static%20-%20Google%20Chrome%202023-02-24%2016-21-34.mp4?alt=media&token=4c9c7e4d-34e5-4cb4-8a2b-58aa2c596940"
+									type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+							<!-- Dropdown Toggle Button for Description -->
+							<button onclick="toggleDropdown('description1')" class="dropdown-btn">Project Details</button>
+							<!-- Collapsible Description -->
+							<div id="description1" class="dropdown-content" style="display: none;">
+								<p>
+									<strong>Duration: 2 Weeks</strong>
+									<br>
+									<br>
+
+									&nbsp &nbsp In a comprehensive challenge at Holberton School, I embarked on an ambitious project to recreate the functionality of a
+									widely-used vacation rental platform. The project, represents a deep dive into full-stack development,
+									starting with the foundational component—the console.
+									<br>
+									<br>
+
+									<strong>Project Highlights:</strong>
+									<br>
+									<br>
+
+									<strong>Command Interpreter Creation:</strong> Crafted a command interpreter in Python to manage the various objects related to the platform, emulating the operations
+									of a typical shell environment.
+									<br>
+									<strong>Object-Oriented Design:</strong> Leveraged the power of object-oriented programming to build the core functionalities, including serialization and
+									deserialization of data, and crafted a parent class BaseModel for inheritance.
+									<br>
+									<strong>Data Persistence:</strong> Engineered a storage system to handle data persistence, allowing for object creation, retrieval, and destruction, along
+									with updating of attributes and storage of object instances.
+									<br>
+									<strong>Unit Testing:</strong> Employed rigorous testing strategies to validate all components of the system, ensuring robust and reliable operation.
+									<br>
+									<strong>Technical Stack:</strong>
+									<br>
+									<strong>Languages:</strong> Python
+									<br>
+									<strong>Systems:</strong> JSON serialization/deserialization, custom ORM.
+									<br>
+									<strong>Testing:</strong> Unittest module for Python.
+									<br>
+									<br>
+									<strong>Project Impact:</strong>
+									<br>
+									&nbsp &nbsp This project honed my skills in both front-end and back-end development, particularly in understanding data management
+									and interface design. The inclusion of advanced tasks like reviews, more amenities, responsive design, and accessibility
+									support further expanded my expertise and adaptation to real-world application scenarios.
+									<br>
+									<strong>Reflection:</strong>
+									<br>
+									My passion for this project was driven by the clarity of vision for the end product and the technical depth it required.
+									It was an exercise in critical thinking, problem-solving, and application of programming fundamentals in Python.
+									The project repostory can be found on <a href="https://github.com/hayes28/holbertonschool-AirBnB_clone"
+										target="_blank">GitHub</a>.
+								</p>
+							</div>
 						</div>
 							<div class="col-4 col-6-medium col-12-small">
 								<h3>Designer language</h3>
@@ -436,7 +498,7 @@
 		</div>
 		<div id="footer">
 			<ul class="copyright">
-				<li>&copy; hireheather918 2023.</li>
+				<li>&copy; hireheather918 2024</li>
 				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 		</div>
@@ -458,6 +520,29 @@
 				element.style.display = "none";
 			}
 		}
+	</script>
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		const firebaseConfig = {
+			apiKey: "AIzaSyDC_rjolE33NBSOLvMm35yn8zUBxu340Xc",
+			authDomain: "personal-website-f7640.firebaseapp.com",
+			projectId: "personal-website-f7640",
+			storageBucket: "personal-website-f7640.appspot.com",
+			messagingSenderId: "760655316935",
+			appId: "1:760655316935:web:7c98370eb423b22ea7fbe2",
+			measurementId: "G-H67R5QF2P5"
+		};
+
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
 	</script>
 </body>
 

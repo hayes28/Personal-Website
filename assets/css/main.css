@@ -1742,6 +1742,53 @@ header>p {
 
 /* Button */
 
+/* Customize dropdown button */
+.dropdown-btn {
+	width: 100%;
+	/* Make the button fill the container */
+	max-width: 200px;
+	/* Or set a maximum width for the button */
+	padding: 10px 20px;
+	/* Add some padding for aesthetic spacing */
+	margin: 0 auto;
+	/* Auto margins for horizontal centering */
+	display: block;
+	/* Ensure it's a block-level element for margin: auto to work */
+	text-align: center;
+	/* Center the text inside the button */
+	/* Add additional styling as needed */
+	background-color: #003446;
+	/* Example background color */
+	color: white;
+	/* Example text color */
+	border: none;
+	/* Remove border */
+	cursor: pointer;
+	/* Change mouse cursor on hover */
+	border-radius: 5px;
+	/* Optional: rounded corners */
+	font-size: 16px;
+	/* Optional: adjust font size */
+	transition: all 0.3s;
+	/* Optional: transition for hover effects */
+}
+
+/* Optional: Add a hover effect */
+.dropdown-btn:hover {
+	background-color: #0155718b;
+	/* Darken button color on hover */
+}
+
+/* If the button is within a container that uses flexbox, you might center it like this: */
+.dropdown-container {
+	display: flex;
+	justify-content: center;
+	/* Center children horizontally */
+	align-items: center;
+	/* Center children vertically */
+}
+
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"],

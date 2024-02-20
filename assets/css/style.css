@@ -398,6 +398,15 @@ a:hover {
 }
 
 /*------/ Button /------*/
+/* .dropdown-btn {
+  background-color: #0078ff;
+  color: #fff;
+  border-color: #0078ff;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: 0.4s;
+} */
+
 .button {
   display: inline-block;
   padding: 0.3rem 0.6rem;
